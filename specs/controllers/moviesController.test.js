@@ -28,7 +28,7 @@ describe('find movies', () => {
 })
 
 describe('get movie detail', () => {
-  it('called th request', async () => {
+  it('called the request', async () => {
     await getMovie('123')
 
     expect(OmdbRequest).toHaveBeenCalled()
