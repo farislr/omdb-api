@@ -9,6 +9,8 @@ const start = async () => {
     createServer.listen(port, () => console.log(`Connected to port ${port}`))
   } catch (e) {
     console.log(e)
+
+    throw new Error(e)
   }
 }
 

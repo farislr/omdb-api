@@ -10,6 +10,7 @@ const searchLogRepository = new SearchLogStorage()
 module.exports = {
   async findMovies(string, options) {
     const movies = await findMovies(string, options, { movieRepository })
+
     const {
       data,
       config: { url },
