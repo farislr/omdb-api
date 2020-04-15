@@ -3,10 +3,19 @@
 Fill .env first
 
 install dependencies
-`yarn`
+
+```bash
+yarn
+```
 
 run server
-`yarn dev`
+
+```bash
+yarn dev
+```
 
 run test
-`yarn test`
+
+```bash
+yarn test
+```
